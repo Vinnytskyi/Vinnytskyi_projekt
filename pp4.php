@@ -276,7 +276,7 @@
      
 
 <!-- Pätička  -->
-<?php include 'footer2.php'; ?>
+<?php include 'includes/footer2.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
