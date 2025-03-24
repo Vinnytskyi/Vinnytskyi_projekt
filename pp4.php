@@ -1,8 +1,7 @@
 <?php include 'includes/header3.php'; ?>
 
     <!-- Navigačný panel -->
-    <?php include 'includes/nav.php'; ?>
-
+    <?php include 'includes/nav4.php'; ?>
     <!-- Sekcia zvýraznených výhod moderných hodiniek -->
     <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="mh">
         <h3 class="text-center text-highlight">Výhody moderných hodiniek</h3>

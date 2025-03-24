@@ -1,8 +1,9 @@
 <?php include 'includes/header2.php'; ?>
     <!-- Navigačný panel -->
-    <?php include 'includes/nav.php'; ?>
-    kcia zvýraznených výhod športových hodiniek -->
-    <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="sh">
+    <?php include 'includes/nav2.php'; ?>
+    <!-- Sekcia zvýraznených výhod športových hodiniek -->
+    
+    <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="vyh">
         <h3 class="text-center text-highlight">Výhody športových hodiniek</h3>
         <ul class="list-unstyled">
           <li>

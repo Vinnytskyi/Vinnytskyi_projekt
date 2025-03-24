@@ -1,16 +1,11 @@
 <?php
-// functions.php
-
-// Funkcia na overenie platnosti typu menu
 function validateMenuType($type) {
     $menuTypes = ['header', 'footer'];
     return in_array($type, $menuTypes);
 }
-
-// Funkcia na načítanie dát pre menu podľa zadaného typu
 function getMenuType($type) {
     if (!validateMenuType($type)) {
-        return []; // Ak typ nie je platný, vráti prázdne pole
+        return []; 
     }
 
     $menu = [];
@@ -20,24 +15,37 @@ function getMenuType($type) {
                 'name' => 'Domov',
                 'path' => 'pp.html'
             ],
+            'about' => [
+                'name' => 'O nás',
+                'path' => '#o nas'
+            ],
+            'catalog' => [
+                'name' => 'Katalog',
+                'path' => '#kl'
+            ],
+            'contact' => [
+                'name' => 'Kontakt',
+                'path' => '#kontakt'
+            ],
+
             'sport' => [
                 'name' => 'Sport',
-                'path' => 'pp2.html' // Nový odkaz pre stránku pp2
+                'path' => 'pp2.html' 
             ],
             'classic' => [
                 'name' => 'Classic',
-                'path' => 'pp3.html' // Nový odkaz pre stránku pp3
+                'path' => 'pp3.html' 
             ],
             'modern' => [
                 'name' => 'Modern',
-                'path' => 'pp4.html' // Nový odkaz pre stránku pp4
+                'path' => 'pp4.html' 
             ]
         ];
     }
     return $menu;
 }
 
-// Funkcia na generovanie HTML pre menu
+
 function printMenu($menu) {
     if (empty($menu)) return '';
     $html = '<ul class="navbar-nav">';

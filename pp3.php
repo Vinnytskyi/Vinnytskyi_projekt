@@ -1,7 +1,7 @@
 <?php include 'includes/header3.php'; ?>
 
     <!-- Navigačný panel -->
-<?php include 'includes/nav.php'; ?>
+    <?php include 'includes/nav3.php'; ?>
     <!-- Sekcia zvýraznených výhod klasických hodiniek -->
     <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="vh">
         <h3 class="text-center text-highlight">Výhody klasických hodiniek</h3>
