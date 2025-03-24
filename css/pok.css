@@ -1,0 +1,186 @@
+/* Všeobecný štýl */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f3ff; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Časť formulára */
+.kontakt {
+    background-color: #eae6ff; 
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+/* Názov */
+.kontakt h2 {
+    color: #4a235a; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Vstupné polia */
+.kontakt .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #d6b4f0; 
+    border-radius: 5px;
+    background-color: #f9f4ff;
+    margin-top: 5px;
+    color: #4a235a;
+    box-sizing: border-box;
+}
+
+.kontakt .form-control:focus {
+    border-color: #9c7cc1; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(156, 124, 193, 0.5);
+}
+
+.selection-section {
+    margin: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.selection-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4a235a;
+}
+
+.selection-dropdown {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d6b4f0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f4ff;
+    color: #4a235a;
+    outline: none;
+}
+
+.selection-dropdown:hover {
+    border-color: #9c7cc1;
+}
+
+.radio-options {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.radio-options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #4a235a;
+    cursor: pointer;
+}
+
+.radio-options input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #9c7cc1; 
+}
+
+.kn {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #4a235a;
+}
+
+input[type="checkbox"] {
+    accent-color: #9c7cc1;
+}
+
+/* Tlačidlo Odoslať */
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #9c7cc1; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: #4a235a;
+}
+
+/* Zobraziť výsledok */
+.result {
+    font-size: 1.2rem;
+    color: #6c3483; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .kontakt {
+        padding: 30px 20px;
+    }
+
+    .kontakt h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    .selection-dropdown, .btn {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .radio-options label, .kn {
+        font-size: 0.9rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .kontakt {
+        padding: 20px 10px;
+    }
+
+    .kontakt h2 {
+        font-size: 1.3rem;
+    }
+
+    .form-control {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .selection-dropdown, .btn {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    .radio-options label, .kn {
+        font-size: 0.8rem;
+    }
+
+    .result {
+        font-size: 0.9rem;
+    }
+}

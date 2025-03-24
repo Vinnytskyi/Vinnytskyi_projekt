@@ -1,0 +1,519 @@
+/* Všeobecné štýly navigácie */
+.navbar {
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    padding: 3px 20px;
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa; 
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #b62897bf;
+}
+
+.nav-item .nav-link {
+    font-size: 1rem;
+    color: #f8f9fa;
+    margin: 0 10px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #9929a1bd;
+    color: #1c1c1c; 
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo {
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #d036cdc2;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    color: #d61acdb0; 
+    transform: scale(1.2);
+}
+
+/* prispôsobivosť */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .logo {
+        height: 35px;
+    }
+}
+
+
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+
+.rectangle-img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 10px; 
+}
+
+.icon {
+    font-size: 20px;           
+    color: white;           
+}
+
+
+.kat {
+    width: 100%;                  
+    padding: 12px 20px;        
+    font-size: 16px;              
+    font-weight: bold;        
+    color: white;                
+    background: linear-gradient(135deg, #6e8efb, #a777e3); 
+    border: none;                
+    border-radius: 25px;         
+    cursor: pointer;              
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.kat:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.kat:active {
+    transform: translateY(2px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Sekcia "Kontakt" */
+.kontakt {
+    background-color: #f3e8ff; 
+    color: #4a235a; 
+    padding: 50px 0;
+    border-top: 5px solid #d6b4f0;
+    border-bottom: 5px solid #d6b4f0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(136, 84, 208, 0.2);
+}
+
+.kontakt h2 {
+    font-size: 2.5rem;
+    color: #6c3483;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.kontakt form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.kontakt .form-label {
+    font-weight: bold;
+    color: #4a235a;
+}
+
+.kontakt .form-control {
+    background-color: #f9f4ff;
+    border: 2px solid #d6b4f0; 
+    color: #4a235a;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.kontakt .form-control:focus {
+    border-color: #9c7cc1; 
+    box-shadow: 0 0 5px rgba(108, 52, 131, 0.3);
+    outline: none;
+}
+
+.kontakt .btn-primary {
+    background-color: #a569bd; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.kontakt .btn-primary:hover {
+    background-color: #6c3483; 
+    color: #f9f4ff;
+    box-shadow: 0 4px 10px rgba(108, 52, 131, 0.4);
+}
+
+.kontakt .kn {
+    color: #6c3483;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.kontakt input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #a569bd; 
+}
+
+
+
+/* Štýl pre sekciu "príbeh obchodu" */
+.store-story {
+    background-color: #f9f9f9;
+    border: 2px solid #6e8efb;
+    padding: 40px;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.store-story h2 {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.store-story p {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Štýly päty */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-column:first-child {
+    text-align: left;
+}
+
+.footer-column:last-child {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
+
+
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 5px;
+}
+
+
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1731410612760-4d9ae680d5e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Шлях до зображення */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 56px;
+}
+
+
+
+/* Pozadie pre celý dokument */
+body {
+    background-image: url('https://images.unsplash.com/photo-1731410612760-4d9ae680d5e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Pozadie pre sekciu "O NAS" */
+.store-story {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 60px 20px;
+}
+
+
+/* Úprava štýlu tlačidla rozbaľovacej ponuky */
+.custom-dropdown-btn {
+    background-color: #343a40;
+    color: white; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.custom-dropdown-btn:hover {
+    background-color: #495057;
+}
+
+/* Úprava štýlu rozbaľovacej ponuky */
+.custom-dropdown-menu {
+    background-color: #212529;
+    border-radius: 5px; 
+    border: 1px solid #343a40;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Štýl položiek ponuky */
+.custom-dropdown-item {
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-dropdown-item:hover {
+    background-color: #b62897bf;
+    color: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+    .custom-dropdown-btn {
+        width: 100%;
+    }
+    .custom-dropdown-menu {
+        width: 100%;
+    }
+}
+
+
+
+
+
+.features {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+/* Štylizácia ikon */
+.feature-icon {
+    font-size: 2rem;
+    color: #007bff; 
+    margin-bottom: 10px;
+}
+
+/* Štýl hlavičiek */
+.feature-title {
+    font-weight: 600; 
+    margin: 10px 0;
+    color: #343a40; 
+}
+
+.feature-text {
+    font-size: 0.9rem;
+    color: #6c757d; 
+    line-height: 1.4;
+}
+
+
+/* Sekcia s ikonami */
+.features {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.features .col-md-3 {
+    margin-bottom: 20px;
+}
+
+/* Štýl ikon */
+.feature-icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #ef0808;
+    font-size: 36px;
+    line-height: 80px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-icon:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.features svg {
+    width: 50px;
+    height: 50px;
+    fill: #161515;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.features svg:hover {
+    transform: rotate(15deg);
+    fill:  #d61acdb0;
+}
+
+.feature-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-text {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.features .col-md-3:hover .feature-icon {
+    background-color: #28a745;
+}
+
+.features .col-md-3:hover .feature-title {
+    color: #0d24ee;
+}
+
+
+.rectangle-img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+.rectangle-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Zmeniť farbu pozadia akordeónu */
+.accordion-item {
+    background-color: #f0f8ff;
+    border: 3px solid #d6b4f0;
+    border-radius: 5px;
+  }
+  
+  .accordion-header button {
+    text-align: center;
+    background-color: #e2e6ea;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .accordion-header button:hover {
+    background-color: #9c9cff;
+    color: #fff; 
+  }
+  
+  .accordion-header button{
+    background-color: #f0f8ff; 
+    color: #333;
+  }
+  
+  .accordion-collapse {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #333;
+  }
+  

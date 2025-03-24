@@ -1,0 +1,487 @@
+/* Všeobecné štýly navigácie */
+.navbar {
+    background-color: #1c1c1c; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    padding: 3px 10px;
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa; 
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #b62897bf; 
+}
+
+.nav-item .nav-link {
+    font-size: 1rem;
+    color: #f8f9fa;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #9929a1bd; 
+    color: #1c1c1c; 
+}
+
+.navbar-toggler {
+    border: none; 
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo {
+    margin-right: 10px; 
+    border-radius: 50%;
+    border: 2px solid #d036cdc2; 
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    color: #d61acdb0; 
+    transform: scale(1.2); 
+}
+
+/* Pre prispôsobivosť */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .logo {
+        height: 35px; 
+    }
+}
+        
+        
+        
+        
+        /* Rozmery karuselu */
+        #carouselExampleCaptions {
+            max-width: 900px; 
+            max-height: 600px; 
+            margin: 0 auto; 
+        }
+
+        /* Štýly obrázkov */
+        #carouselExampleCaptions .carousel-item img {
+            width: 100%; 
+            height: 500px; 
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h5,p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+
+        /* Všeobecný štýl pre text karuselu */
+.carousel-caption {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)); 
+    color: #fff;
+    padding: 20px; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+/* Animácia pre text */
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    animation: fadeIn 1.5s ease-in-out;
+    color: #ddd; 
+}
+
+
+.carousel-caption:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+    transform: scale(1.02); 
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Všeobecný štýl pre sekciu produktov */
+.products {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Štýl obrázkov */
+.product-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+/* Text a tlačidlo */
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Štýly päty */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-column:first-child {
+    text-align: left;
+}
+
+.footer-column:last-child {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-column {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
+
+
+.products {
+    padding: 20px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: antiquewhite;
+    border: 1px solid #929191;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
+
+.product-card p {
+    color: #555;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.product-card .price {
+    color: rgb(251, 5, 5);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Všeobecný štýl pre ceny */
+.product-card .price {
+    color: #333; 
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.product-card.sale .price {
+    color: #e74c3c;
+}
+
+
+
+.product-card .buy-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card .buy-btn:hover {
+    background: #27ae60;
+}
+
+.product-image {
+    position: relative;
+}
+
+/* Všeobecný štýl pre obrázky produktov */
+.product-image img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0;
+}
+
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.review p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+.rating {
+    color: #f1c40f;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+
+.section-highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    border: 1px solid #e38ffa;
+}
+
+.text-highlight {
+    color: #b62897bf; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-weight: bold; 
+}
+
+
+.section-highlight ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.section-highlight ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+
+.product-card .price {
+    margin: 10px 0; 
+    font-size: 1.2rem; 
+    text-decoration: underline;
+}
+
+.product-card .buy-btn {
+    display: inline-block;
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .buy-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.styled-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #9b4b8abf;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
