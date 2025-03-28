@@ -27,7 +27,7 @@ function getMenuType($type) {
                 'name' => 'Kontakt',
                 'path' => '#kontakt'
             ],
-
+            
             'sport' => [
                 'name' => 'Sport',
                 'path' => 'pp2.html' 

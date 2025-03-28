@@ -12,7 +12,7 @@
             <h1>Ďakujeme za vašu objednávku!</h1>
             <p>Vaše údaje boli úspešne odoslané. Čoskoro vás budeme kontaktovať.</p>
             <p>Ak máte akékoľvek otázky, kontaktujte nás na <a href="mailto:info@example.com">asirisstore@gmail.com</a>.</p>
-            <a href="pp.html" class="home-button">Späť na hlavnú stránku</a>
+            <a href="pp.php" class="home-button">Späť na hlavnú stránku</a>
         </div>
     </div>
 </body>

@@ -87,7 +87,7 @@
                 <h3>Classic Elegance</h3>
                 <p>Štýlové hodinky, ktoré nikdy nevyjdú z módy.</p>
                 <p>€249</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -100,7 +100,7 @@
                 <h3>Timeless Silver</h3>
                 <p>Strieborné hodinky s eleganciou, ktorá pretrvá.</p>
                 <p>€229</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -113,7 +113,7 @@
                 <h3>Classic Gold</h3>
                 <p>Zlaté hodinky, ktoré nikdy nevyjdú z módy.</p>
                 <p>€349</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -127,7 +127,7 @@
                 <h3>Vintage Brown</h3>
                 <p>Klasický hnedý dizajn pre elegantný vzhľad.</p>
                 <p>€219</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>            
             </div>
@@ -143,7 +143,7 @@
                 <img src="https://images.pexels.com/photos/14525782/pexels-photo-14525782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Luxury Platinum</h3>
                 <p>€549</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -151,7 +151,7 @@
                 <img src="https://images.pexels.com/photos/5421271/pexels-photo-5421271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Urban Gold</h3>
                 <p>€249</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -159,7 +159,7 @@
                 <img src="https://images.pexels.com/photos/4061280/pexels-photo-4061280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 3">
                 <h3>Elegant Ebony</h3>
                 <p>€349</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -167,7 +167,7 @@
                 <img src="https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Majestic Silver</h3>
                 <p>€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -175,7 +175,7 @@
                 <img src="https://images.pexels.com/photos/7330090/pexels-photo-7330090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Prestige Gold</h3>
                 <p>€349</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -183,7 +183,7 @@
                 <img src="https://images.pexels.com/photos/68201/male-watch-wrist-watch-packshot-time-68201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 3">
                 <h3>Elegant Black</h3>
                 <p>€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -191,7 +191,7 @@
                 <img src="https://images.pexels.com/photos/13548995/pexels-photo-13548995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Royal Heritage</h3>
                 <p>€399</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -199,7 +199,7 @@
                 <img src="https://images.pexels.com/photos/5447382/pexels-photo-5447382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Vintage Classic</h3>
                 <p>€379</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -231,7 +231,7 @@
      
 
 <!-- Pätička  -->
-<?php include 'includes/footer2.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>

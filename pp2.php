@@ -76,7 +76,7 @@
                 <h3>Elegant Black</h3>
                 <p>Čistá čierna pre nadčasovú eleganciu.</p>
                 <p class="price">€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -89,7 +89,7 @@
                 <h3>Elegant Black</h3>
                 <p>Čistá čierna pre nadčasovú eleganciu.</p>
                 <p class="price">€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -102,7 +102,7 @@
                 <h3>Elegant Black</h3>
                 <p>Čistá čierna pre nadčasovú eleganciu.</p>
                 <p class="price">€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -116,7 +116,7 @@
                 <h3>Elegant Black</h3>
                 <p>Čistá čierna pre nadčasovú eleganciu.</p>
                 <p class="price">€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>            
             </div>
@@ -132,7 +132,7 @@
                 <img src="https://images.pexels.com/photos/9204686/pexels-photo-9204686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Hodinky Classic</h3>
                 <p>€199</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -140,7 +140,7 @@
                 <img src="https://images.pexels.com/photos/11601957/pexels-photo-11601957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Sport Chronograph</h3>
                 <p>€249</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -148,7 +148,7 @@
                 <img src="https://images.pexels.com/photos/9822736/pexels-photo-9822736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 3">
                 <h3>Elegant Black</h3>
                 <p>€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -156,7 +156,7 @@
                 <img src="https://images.pexels.com/photos/23891842/pexels-photo-23891842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Hodinky Classic</h3>
                 <p>€199</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -164,7 +164,7 @@
                 <img src="https://images.pexels.com/photos/9130515/pexels-photo-9130515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Sport Chronograph</h3>
                 <p>€249</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -172,7 +172,7 @@
                 <img src="https://images.pexels.com/photos/3161378/pexels-photo-3161378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 3">
                 <h3>Elegant Black</h3>
                 <p>€299</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -180,7 +180,7 @@
                 <img src="https://images.pexels.com/photos/19961769/pexels-photo-19961769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 1">
                 <h3>Hodinky Classic</h3>
                 <p>€199</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -188,7 +188,7 @@
                 <img src="https://images.pexels.com/photos/13791415/pexels-photo-13791415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hodinky 2">
                 <h3>Sport Chronograph</h3>
                 <p>€249</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -219,7 +219,7 @@
 
    
 <!-- Pätička  -->
-<?php include 'includes/footer2.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>

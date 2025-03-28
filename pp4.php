@@ -101,7 +101,7 @@
                 <h3>Futuristic Silver</h3>
                 <p>Moderné strieborné hodinky pre futuristický štýl.</p>
                 <p>€279</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -114,7 +114,7 @@
                 <h3>Golden Shine</h3>
                 <p>Moderné zlaté hodinky, ktoré očaria každého.</p>
                 <p>€399</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -127,7 +127,7 @@
                 <h3>Urban Brown</h3>
                 <p>Moderný hnedý dizajn pre mestský životný štýl.</p>
                 <p>€259</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>            
             </div>
@@ -144,7 +144,7 @@
                 <img src="https://images.pexels.com/photos/592815/pexels-photo-592815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Modern Platinum">
                 <h3>Modern Platinum</h3>
                 <p>€599</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -152,7 +152,7 @@
                 <img src="https://images.pexels.com/photos/190581/pexels-photo-190581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Urban Gold Plus">
                 <h3>Urban Gold Plus</h3>
                 <p>€269</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -160,7 +160,7 @@
                 <img src="https://images.pexels.com/photos/8892886/pexels-photo-8892886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ebony Edge">
                 <h3>Ebony Edge</h3>
                 <p>€379</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -168,7 +168,7 @@
                 <img src="https://images.pexels.com/photos/23174727/pexels-photo-23174727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Silver Grace">
                 <h3>Silver Grace</h3>
                 <p>€329</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -176,7 +176,7 @@
                 <img src="https://images.pexels.com/photos/15671805/pexels-photo-15671805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Golden Prestige">
                 <h3>Golden Prestige</h3>
                 <p>€389</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -184,7 +184,7 @@
                 <img src="https://images.pexels.com/photos/10414981/pexels-photo-10414981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Black Nova">
                 <h3>Black Nova</h3>
                 <p>€329</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -192,7 +192,7 @@
                 <img src="https://images.pexels.com/photos/9561297/pexels-photo-9561297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Heritage Luxe">
                 <h3>Heritage Luxe</h3>
                 <p>€439</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -200,7 +200,7 @@
                 <img src="https://images.pexels.com/photos/15715981/pexels-photo-15715981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vintage Future">
                 <h3>Vintage Future</h3>
                 <p>€399</p>
-                <a href="nakup.html" class="buy-btn">
+                <a href="nakup.php" class="buy-btn">
                     <i class="fas fa-shopping-cart"></i> Kúpiť teraz
                 </a>
             </div>
@@ -233,7 +233,7 @@
      
 
 <!-- Pätička  -->
-<?php include 'includes/footer2.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>

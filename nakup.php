@@ -45,7 +45,7 @@
                         </label>
                     </div>
                 </section>
-                <button type="button" class="btn btn-primary mt-3" id="submitButton">Odoslať</button>
+                <button type="button" class="btn btn-primary mt-3" id="submitButton" href=dakujem.php>Odoslať</button>
             </form>
         </div>
     </section>
