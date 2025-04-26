@@ -26,6 +26,21 @@
                     </li>
                 </ul>
             </div>
+<div class="dropdown">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" alt="Avatar" class="rounded-circle" style="width: 40px; height: 40px; cursor: pointer;" id="avatarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="avatarDropdown">
+    <li><a class="dropdown-item" href="read_user.php">Read</a></li>
+    <li><a class="dropdown-item" href="registration.php">Edit</a></li> <!-- <- ось, на registration.php -->
+    <li>
+            <form action="delete_user.php" method="POST">
+                <input type="hidden" name="ID" value="<?php echo $_SESSION['user_id']; ?>"> <!-- передаємо ID користувача -->
+                <button type="submit" class="dropdown-item" onclick="return confirm('Ви дійсно хочете видалити свій акаунт?')">Delete</button>
+            </form>
+        </li>
+    </ul>
+</ul>
+</div>
+
             <!-- Ikona koša -->
             <div class="icon-container">
                 <i class="bi bi-bag-fill icon"></i>
