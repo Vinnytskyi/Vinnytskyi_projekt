@@ -40,5 +40,6 @@ submitButton.addEventListener('click', function () {
     }
 
     // Якщо всі поля заповнені, переходимо до іншої сторінки
-    window.location.href = 'dakujem.html';
+    window.location.href = 'dakujem.php';
+    
 });
