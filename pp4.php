@@ -1,9 +1,9 @@
-<?php include 'includes/header3.php'; ?>
+<?php include 'includes/header2.php'; ?>
 
     <!-- Navigačný panel -->
-    <?php include 'includes/nav4.php'; ?>
+    <?php include 'includes/nav3.php'; ?>
     <!-- Sekcia zvýraznených výhod moderných hodiniek -->
-    <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="mh">
+    <section class="section-highlight my-5 p-4 rounded shadow text-center py-5 border border-primary" id="vh">
         <h3 class="text-center text-highlight">Výhody moderných hodiniek</h3>
         <table class="styled-table">
             <thead>
@@ -76,7 +76,7 @@
     </div>
 
     <section class="products py-5" id="zl">
-        <h2>Najzaujímavejšie modely</h2>
+        <h2>Najpopulárnejšie modely</h2>
         <div class="product-grid">
             <!-- Sekcia so Najzaujímavejšie na produkty -->
     

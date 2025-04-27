@@ -1,4 +1,4 @@
-<?php include 'includes/header3.php'; ?>
+<?php include 'includes/header2.php'; ?>
 
     <!-- Navigačný panel -->
     <?php include 'includes/nav3.php'; ?>

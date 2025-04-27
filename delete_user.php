@@ -1,46 +1,51 @@
 <?php
+// Показуємо всі помилки
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Підключення до бази даних
 include 'db.php';
-session_start();
+session_start(); // Починаємо сесію
 
-// Перевірка, чи користувач авторизований
-if (isset($_SESSION['user_id'])) {
-    
-    // Знаходимо останнього зареєстрованого користувача
-    $query = "SELECT ID FROM users ORDER BY ID DESC LIMIT 1";
-    $result = $conn->query($query);
+// Перевірка підключення
+if (!$conn) {
+    die('Помилка підключення до бази даних: ' . mysqli_connect_error());
+}
 
-    if ($result && $result->num_rows > 0) {
-        $row = $result->fetch_assoc();
-        $lastUserId = $row['ID'];
+// Знаходимо останнього зареєстрованого користувача
+$sql = "SELECT ID FROM users ORDER BY ID DESC LIMIT 1";
+$result = $conn->query($sql);
 
-        // Видаляємо його
-        $stmt = $conn->prepare("DELETE FROM users WHERE ID = ?");
-        if ($stmt) {
-            $stmt->bind_param("i", $lastUserId);
-            if ($stmt->execute()) {
-                // Якщо користувач сам себе видалив, закриваємо сесію
-                if ($_SESSION['user_id'] == $lastUserId) {
-                    session_destroy();
-                }
+if ($result && $result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $lastUserId = $row['ID'];
 
-                // Переадресація на сторінку реєстрації
-                header("Location: registration.php?message=deleted");
-                exit();
-            } else {
-                echo "Помилка при видаленні: " . $stmt->error;
-            }
-            $stmt->close();
+    // Видаляємо останнього користувача
+    $deleteSql = "DELETE FROM users WHERE ID = ?";
+    $stmt = $conn->prepare($deleteSql);
+
+    if ($stmt) {
+        $stmt->bind_param("i", $lastUserId);
+        if ($stmt->execute()) {
+            echo "Користувача з ID $lastUserId успішно видалено.<br>";
+
+            // Знищуємо сесію
+            session_destroy();
+
+            // Перекидаємо на сторінку реєстрації
+            header("Location: registration.php");
+            exit();
         } else {
-            echo "Помилка підготовки запиту: " . $conn->error;
+            echo "Помилка при видаленні: " . $stmt->error;
         }
+        $stmt->close();
     } else {
-        echo "Не знайдено користувачів для видалення.";
+        echo "Помилка при підготовці запиту на видалення: " . $conn->error;
     }
 } else {
-    header("Location: goodbye.php");
-    exit();
+    echo "Немає користувачів для видалення.";
 }
-?>
 
+$conn->close();
+?>
 

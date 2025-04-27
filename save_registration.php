@@ -1,7 +1,7 @@
 <?php
-include('db.php'); // Підключаємо файл з налаштуванням підключення до бази
+include('db.php'); // Підключення до бази даних
 
-// Отримання даних
+// Отримуємо ID користувача для оновлення
 $id = isset($_POST['id']) ? (int)$_POST['id'] : 0;
 $fullname = trim($_POST['fullname']);
 $email = trim($_POST['email']);
@@ -52,10 +52,12 @@ if ($id) {
     $stmt->execute();
 }
 
-// Перекидаємо назад
+// Перекидаємо назад на головну сторінку
 header('Location: pp.php');
 exit;
 ?>
+
+
 
 
 
