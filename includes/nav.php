@@ -37,7 +37,8 @@
     <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" alt="Avatar" class="rounded-circle" style="width: 40px; height: 40px; cursor: pointer;" id="avatarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="avatarDropdown">
     <li><a class="dropdown-item" href="read_user.php">Read</a></li>
-    <li><a class="dropdown-item" href="registration.php?edit=1">Edit</a></li>
+    <li><a class="dropdown-item" href="registration.php?edit=1&id=1&S">Edit</a></li>
+
     <li>
         <form action="delete_user.php" method="POST">
             <button type="submit" class="dropdown-item" onclick="return confirm('Naozaj sa chcete odhlásiť??')">Delete</button>

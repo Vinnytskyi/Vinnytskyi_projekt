@@ -3,9 +3,13 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Підключення до бази даних
-include 'db.php';
+// Підключення до бази даних через клас DBConnect
+require_once 'core_logic/DBConnect.php';
+
 session_start(); // Починаємо сесію
+
+// Отримуємо з'єднання з базою даних
+$conn = DBConnect::connect();
 
 // Перевірка підключення
 if (!$conn) {
@@ -48,4 +52,5 @@ if ($result && $result->num_rows > 0) {
 
 $conn->close();
 ?>
+
 

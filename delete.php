@@ -1,6 +1,6 @@
 <?php
 // Підключення до бази даних
-include 'db.php';
+include 'core_logic/DBConnect.php';
 session_start(); // Початок сесії
 
 // Перевірка, чи користувач авторизований
