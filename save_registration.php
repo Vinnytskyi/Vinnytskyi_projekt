@@ -1,9 +1,9 @@
 <?php
+session_start(); 
 require_once('app_config/config.php');
 require_once('core_logic/DBConnect.php');
 
 $conn = DBConnect::connect();
-
 $fullname = trim($_POST['fullname']);
 $email = trim($_POST['email']);
 $password = trim($_POST['password']);
@@ -16,7 +16,7 @@ if (!empty($password) && $password !== $confirm_password) {
 }
 
 if ($id > 0) {
-    // ОНОВЛЕННЯ останнього користувача
+    // ОНОВЛЕННЯ користувача
     if (!empty($password)) {
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         $stmt = $conn->prepare("UPDATE users SET fullname = ?, email = ?, password = ? WHERE id = ?");
@@ -37,6 +37,10 @@ if ($stmt === false) {
 }
 
 $stmt->execute();
+
+$_SESSION['fullname'] = $fullname; 
+
+
 header('Location: pp.php');
 exit;
 ?>
