@@ -3,6 +3,7 @@ session_start();
 
 require_once('app_config/config.php');
 require_once('core_logic/DBConnect.php');
+require_once('core_logic/Users.php');
 
 $conn = DBConnect::connect();
 
