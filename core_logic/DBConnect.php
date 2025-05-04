@@ -16,7 +16,7 @@ class DBConnect {
             );
 
             if (self::$connection->connect_error) {
-                die("Помилка з'єднання з базою даних: " . self::$connection->connect_error);
+                die("Chyba pripojenia k databáze: " . self::$connection->connect_error);
             }
         }
 

@@ -12,7 +12,7 @@ $id = isset($_POST['id']) ? (int)$_POST['id'] : 0;
 
 // Перевірка пароля
 if (!empty($password) && $password !== $confirm_password) {
-    die('Паролі не співпадають.');
+    die('Heslá sa nezhodujú.');
 }
 
 if ($id > 0) {
@@ -33,7 +33,7 @@ if ($id > 0) {
 }
 
 if ($stmt === false) {
-    die('Помилка запиту: ' . $conn->error);
+    die('Chyba žiadosti: ' . $conn->error);
 }
 
 $stmt->execute();

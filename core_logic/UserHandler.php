@@ -29,5 +29,4 @@ class UserHandler {
         throw new Exception("Nesprávny email alebo heslo.");
     }
 
-    // Інші методи — наприклад: registerUser(), getUserById(), deleteUser(), updateUser() тощо
 }
