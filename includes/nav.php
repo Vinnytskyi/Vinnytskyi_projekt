@@ -40,10 +40,10 @@ if (isset($_SESSION['fullname']))
                 <img src=".\img\vecteezy_user-profile-avatar_11209565.png" alt="Avatar" class="rounded-circle" style="width: 53px; height: 53px; cursor: pointer;" id="avatarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="avatarDropdown">
                     <li class="text-center"><strong><?= htmlspecialchars($fullname); ?></strong></li> <!-- Виведення ім'я користувача -->
-                    <li><a class="dropdown-item" href="registration.php?edit=1&id=1&S">Edit</a></li>
+                    <li><a class="dropdown-item" href="index.php?edit=1&id=1&S">Edit</a></li>
                     <li>
                         <form action="delete_user.php" method="POST">
-                            <button type="submit" class="dropdown-item" onclick="return confirm('Naozaj sa chcete odhlásiť??')">Delete</button>
+                            <button type="submit" class="dropdown-item" onclick="return confirm('Naozaj sa chcete odhlásiť??')">Logout</button>
                         </form>
                     </li>
                 </ul>

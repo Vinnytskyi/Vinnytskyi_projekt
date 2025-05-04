@@ -37,7 +37,7 @@ if ($result && $result->num_rows > 0) {
             session_destroy();
 
             // Перекидаємо на сторінку реєстрації
-            header("Location: registration.php");
+            header("Location: index.php");
             exit();
         } else {
             echo "Помилка при видаленні: " . $stmt->error;

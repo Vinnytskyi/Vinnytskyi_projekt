@@ -11,7 +11,6 @@ $fullname = '';
 $email = '';
 $userId = 0;
 
-// Якщо передано ?edit=1 — завантажуємо останнього користувача
 if (isset($_GET['edit']) && $_GET['edit'] == 1) {
     $result = $conn->query("SELECT id, fullname, email FROM users ORDER BY id DESC LIMIT 1");
     if ($result && $result->num_rows > 0) {
