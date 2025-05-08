@@ -1,10 +1,9 @@
-<!-- goodbye.php -->
 <!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
     <title>Dovidenia!</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- опціонально -->
+    <link rel="stylesheet" href="css/style.css"> 
     <style>
         body {
             font-family: Arial, sans-serif;
