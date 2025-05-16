@@ -87,29 +87,6 @@
             </div>
         </div>
     </section>
-    <!-- Sekcia kontaktného formulára -->
-    <section class="kontakt py-5" id="kontakt">
-        <div class="container">
-            <h2 class="text-center mb-4">Kontakt</h2>
-            <form class="d-flex flex-column align-items-center">
-                <div class="mb-3 w-50">
-                    <label for="name" class="form-label">Meno</label>
-                    <input type="text" id="name" name="name" class="form-control">
-                </div>
-                <div class="mb-3 w-50">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" id="email" name="email" class="form-control">
-                </div>
-                <div class="mb-3 w-50">
-                    <label for="message" class="form-label">Poznámka</label>
-                    <textarea id="message" name="message" class="form-control" placeholder="Napíšte niečo..."></textarea>
-                </div>
-                <input type="checkbox" name="check" id="check" value="">
-                <label for="checkbox" class="kn">prijať</label>
-                <button type="submit" class="btn btn-primary mt-3">Odoslať</button>
-            </form>
-        </div>
-    </section>
 
  <!-- Päta -->
 

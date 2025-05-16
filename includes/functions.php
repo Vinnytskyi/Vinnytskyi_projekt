@@ -23,23 +23,6 @@ function getMenuType($type) {
                 'name' => 'Katalog',
                 'path' => '#kl'
             ],
-            'contact' => [
-                'name' => 'Kontakt',
-                'path' => '#kontakt'
-            ],
-            
-            'sport' => [
-                'name' => 'Sport',
-                'path' => 'pp2.html' 
-            ],
-            'classic' => [
-                'name' => 'Classic',
-                'path' => 'pp3.html' 
-            ],
-            'modern' => [
-                'name' => 'Modern',
-                'path' => 'pp4.html' 
-            ]
         ];
     }
     return $menu;
